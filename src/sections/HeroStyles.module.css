@@ -1,0 +1,52 @@
+section{
+    height: 100vh;
+    padding: 0 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.socials{
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+}
+
+.socials img{
+    width: 50px;
+}
+
+.heroSection{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.heroText{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    padding: 5%;
+    text-align: center;
+    width: 50vw;
+}
+
+p{
+    max-width: 60%;
+}
+
+.profileDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
+}
+
+.profileDiv img{
+    width: 400px;
+    border-radius: 50%;
+}
