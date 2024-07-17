@@ -1,13 +1,27 @@
 .container{
-    width: 100%;
+    position: absolute;
+    bottom: 5px;
     display: flex;
     justify-content: center;
-    align-items: center;
+    text-align: center;
+    justify-self: center;
+    
+}
+
+img{
+  top: 50%;
+  left: 50%;
 }
 
 .btn{
     all: unset;
-    animation: bounce 2s infinite;
+    animation: bounce 2s 3s infinite, fade-in 2s;
+}
+
+@keyframes fade-in {
+  0% {opacity: 0}
+  50% {opacity: 0}
+  100% {opacity: 1}
 }
   
 @keyframes bounce {
@@ -15,9 +29,30 @@
     transform: translateY(0);
   }
   40% {
-    transform: translateY(-30px);
+    transform: translateY(-10px);
   }
   60% {
-    transform: translateY(-15px);
+    transform: translateY(-10px);
+  }
+}
+
+@media screen and (width < 800px) and (width > 400px){
+  .container{
+    position: relative;
+    bottom: 2%;
+    img{
+      width: 100px;
+    }
+  }
+}
+
+@media screen and (width < 400px){
+  .container{
+    position: relative;
+    bottom: 0;
+    gap: 0;
+    img{
+      width: 60px;
+    }
   }
 }

@@ -1,0 +1,110 @@
+.container{
+    position: relative;
+    height: 100vh;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    gap: 10dvw;
+    align-items: center;
+    text-align: center;
+}
+
+.socials{
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+}
+
+.socials img{
+    width: 50px;
+}
+
+.heroSection{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    height: 100%;
+}
+
+.heroText{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    text-align: center;
+    max-width: 400px;
+}
+
+p{
+    margin-block-start: 0;
+    margin-block-end: 0;
+    
+    font-weight: 300;
+    align-self: center;
+}
+
+.profileDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profileDiv img{
+    width: 250px;
+    border-radius: 50%;
+}
+
+@media screen and (width < 1000px){
+    .container{
+        height: 100dvh;
+        flex-direction: column;
+        justify-content: center;
+        gap: 5dvh;
+        p {
+            width: 25ch;
+        }
+    }
+}
+
+@media screen and (height < 700px){
+    .container{
+        .profileDiv img{
+            max-width: 200px;
+            width: 200px;
+
+        }
+        .heroText{
+            gap: 2dvh;
+        }
+    }
+}
+
+@media (width >= 1000px) {
+    .container {
+        /*flex-direction: column;
+        justify-content: center;
+        gap: 50px;*/
+        gap: 5dvw;
+        .profileDiv img{
+            max-width: 400px;
+            width: 400px;
+        }
+        .heroText{
+            width: 400px;
+            max-width: 400px; 
+        }
+    }
+  }
+
+@media (width >= 1200px) {
+    .container {
+        gap: 10dvw;
+      .profileDiv img{
+        max-width: 400px;
+        width: 400px;
+      }
+    }
+  }

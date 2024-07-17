@@ -11,7 +11,8 @@
 body {
     background-color: var(--background-color);
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto 60px;
 }
 
 h1,h2,h3,p{
