@@ -3,7 +3,7 @@ import styles from './ProjectCardStyles.module.css'
 function ProjectCard(props) {
   return (
         <div className={styles.container}>
-            <a href={props.link}>
+            <a href={props.link} target="_blank">
                 <img src={props.preview} alt="Project preview gif"></img>
                 <h2>{props.title}</h2>
                 <p>{props.description}</p>
