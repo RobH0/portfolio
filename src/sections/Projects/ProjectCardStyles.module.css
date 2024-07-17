@@ -5,19 +5,53 @@
     justify-content: center;
     text-align: center;
     width: 500px;
+    max-width: 90dvw;
     height: auto;
     border-radius: 25px;
     background-color: white;
     border: 20px solid white;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     margin: 20px;
+    animation: 1.5s fadeInUp;
+
     img{
         object-fit: contain;
         width: 500px;
+        max-width: 90dvw;
+    }
+
+    h2{
+        text-transform: none;
     }
 
     a{
         text-decoration: none;
     }
+
+    p{
+        padding: 1%;
+    }
 }
+
+@media screen and (width > 1200px){
+    .container{
+        width: 600px;
+
+        img{
+            width: 600px;
+        }
+    }
+
+}
+
+@keyframes fadeInUp {
+    0% {
+      transform: translateY(100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0%);
+      opacity: 1;
+    }
+  }
 

@@ -1,5 +1,6 @@
 import styles from './ProjectCardStyles.module.css'
 
+// Need to ensure fade in animation only occurs when component is first visible in viewport.
 function ProjectCard(props) {
   return (
         <div className={styles.container}>

@@ -11,4 +11,5 @@
     align-items: center;
     max-width: 100%;
     overflow: hidden;
+    gap: 30px;
 }
