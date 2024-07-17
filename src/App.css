@@ -56,3 +56,10 @@ p {
     flex-direction: column;
     gap: 60px;
 }
+
+@media screen and (width > 400px){
+    #root{
+        gap: 20dvh;
+    }
+ 
+}
