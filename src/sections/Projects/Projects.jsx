@@ -13,7 +13,6 @@ function Projects() {
             
         </div>
     </section>
-
   )
 }
 
