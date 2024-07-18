@@ -8,7 +8,7 @@ function ProjectCard(props) {
   useEffect(() => {
     console.log(`ref.current: ${ref.current}`);
     console.log(ref.current);
-    let options = { threshold: 1}
+    let options = { threshold: 0.25}
     const observer = new IntersectionObserver((entries) => {
       const entry = entries[0];
       // Ensures fade-in animation only runs once.
