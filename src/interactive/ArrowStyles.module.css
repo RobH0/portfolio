@@ -8,6 +8,11 @@
     
 }
 
+.container:hover{
+  transform: scale(1.2);
+  transition: transform .2s ease-in-out;
+}
+
 img{
   top: 50%;
   left: 50%;
