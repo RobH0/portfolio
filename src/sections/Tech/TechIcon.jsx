@@ -1,10 +1,10 @@
-import React from 'react'
+import styles from './TechIconStyles.module.css';
 
 function TechIcon(props) {
   return (
-    <div>
-        <img src={props.source} alt={props.name}></img>
-        <h3>{props.name}</h3>
+    <div className={styles.container}>
+        <img className={styles.icon} src={props.source} alt={props.name}></img>
+        <span className={styles.techName}>{props.name}</span>
     </div>
   )
 }
