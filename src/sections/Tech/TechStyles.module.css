@@ -1,0 +1,33 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.techTypes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.typeDiv{
+    display: flex;
+    gap: 10px;
+}
+
+@media screen and (width < 400px){
+    .evenIcons{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    h2{
+        text-align: center;
+    }
+
+    h3{
+        text-align: center;
+    }
+}
