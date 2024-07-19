@@ -25,8 +25,6 @@ function Tech() {
                 <TechIcon name="MongoDB" source="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-plain.svg" />
             </div>
             
-
-
             <h2>Tools & Other Tech</h2>
             <div className={styles.typeDiv}>
                 <TechIcon name="Git" source="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" />
@@ -34,6 +32,7 @@ function Tech() {
                 <TechIcon name="Jira" source="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jira/jira-original.svg" />
                 <TechIcon name="Ollama" source="https://github.com/RobH0/project-gifs/blob/main/ollama.png?raw=true" />
             </div>
+            
             <h2>Operating Systems</h2>
             <div className={styles.typeDiv}>
                 <TechIcon name="Linux" source="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linux/linux-original.svg" />
