@@ -16,3 +16,18 @@
     display: flex;
     gap: 10px;
 }
+
+@media screen and (width < 400px){
+    .evenIcons{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    h2{
+        text-align: center;
+    }
+
+    h3{
+        text-align: center;
+    }
+}
