@@ -20,8 +20,8 @@ function Contact() {
                 <input id="form-name" type="text" name="name" placeholder='Name' required />
             </div>
             <div className={styles.formDiv}>
-                <label name="email" hidden>email</label>
-                <input id="form-email" type="text" name="email" placeholder='email' required />
+                <label name="email" hidden>Email</label>
+                <input id="form-email" type="text" name="email" placeholder='Email' required />
             </div>
             <div className={styles.formDiv}>
                 <label name="message" hidden>Message</label>
