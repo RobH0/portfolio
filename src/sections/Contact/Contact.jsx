@@ -4,8 +4,11 @@ function Contact() {
   return (
     <section id="Contact" className={styles.container}>
         <h1>Contact Me</h1>
-        <h3>Want to get in touch?</h3>
-        <p>Fill out the form below to reach me via email.</p>
+        <div className={styles.upperText}>
+            <h3>Want to get in touch?</h3>
+            <p>Fill out the form below to reach me via email.</p>
+        </div>
+        
         <form 
             method='POST' 
             name="portfolio-contact" 
