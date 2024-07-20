@@ -20,10 +20,10 @@ function Hero() {
             </h1>
             <h2>FullStack Developer</h2>
             <div className={styles.socials}>
-                <a href="https://github.com/RobH0" target='_blank'>
+                <a className={styles.socialIcon} href="https://github.com/RobH0" target='_blank'>
                     <img src={githubIcon} alt="GitHub Icon" />
                 </a>
-                <a href="https://www.linkedin.com/in/robert-holdsworth-771911148/" target='_blank'>
+                <a className={styles.socialIcon} href="https://www.linkedin.com/in/robert-holdsworth-771911148/" target='_blank'>
                     <img src={linkedinIcon} alt="Linkedin Icon" />
                 </a>
             </div>
