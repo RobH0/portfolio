@@ -4,7 +4,10 @@ import styles from './ArrowStyles.module.css'
 export default function ArrowComponent() {
   return (
     <div className={styles.container}>
-      <button className={styles.btn}><img src={arrow} alt="Arrow symbol pointing downwards" /></button>
+      <button className={styles.btn}><img src={arrow} alt="Arrow symbol pointing downwards" onClick={() => {
+        let projectsElem = document.getElementById('projects');
+        projectsElem.scrollIntoView({ behavior: 'smooth'});
+      }} /></button>
     </div>
   )
 }

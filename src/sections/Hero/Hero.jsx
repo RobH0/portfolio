@@ -4,7 +4,6 @@ import githubIcon from '../../assets/icons8-github.svg';
 import linkedinIcon from '../../assets/icons8-linkedin.svg';
 import ArrowComponent from '../../interactive/ArrowComponent.jsx';
 
-
 function Hero() {
   return (
     <section className={styles.container}>
