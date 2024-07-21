@@ -27,7 +27,7 @@ function Hero() {
                 </a>
             </div>
             <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, reiciendis.
+                Dedicated and detail-oriented Software Engineer with previous experience in IT and Information Security.
             </p>
         </div>
         
