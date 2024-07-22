@@ -9,7 +9,9 @@ function Contact() {
             <p>Fill out the form below to reach me via email.</p>
         </div>
         
+        
         <form name="portfolio-contact" method='POST' className={styles.contactForm}  data-netlify="true" netlify-honey-post="pass" data-netlify-recaptcha="true">
+            <input type="hidden" name="portfolio-contact" value="portfolio-contact" />
             <input type="hidden" name="pass"/>
             <div className={styles.formDiv}>
                 <label name="name" hidden>Name</label>
