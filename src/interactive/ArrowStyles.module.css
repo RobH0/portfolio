@@ -5,7 +5,6 @@
     justify-content: center;
     text-align: center;
     justify-self: center;
-    
 }
 
 .container:hover{
@@ -21,6 +20,7 @@ img{
 .btn{
     all: unset;
     animation: bounce 2s 3s infinite, fade-in 2s;
+    cursor: pointer;
 }
 
 @keyframes fade-in {

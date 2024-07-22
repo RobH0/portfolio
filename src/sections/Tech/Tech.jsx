@@ -14,7 +14,7 @@ function Tech() {
                 <TechIcon name="CSS" source="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original-wordmark.svg" />
             </div>
             <h2>Libraries, Frameworks & Runtimes</h2>
-            <div className={styles.typeDiv}>
+            <div className={`${styles.typeDiv} ${styles.oddIcons}`}>
                 <TechIcon name="React" source="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" />
                 <TechIcon name="Express.js" source="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg" />
                 <TechIcon name="Node.js" source="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original-wordmark.svg" />
@@ -26,11 +26,12 @@ function Tech() {
             </div>
             
             <h2>Tools & Other Tech</h2>
-            <div className={`${styles.typeDiv} ${styles.evenIcons}`}>
+            <div className={`${styles.typeDiv} ${styles.oddIcons}`}>
                 <TechIcon name="Git" source="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" />
                 <TechIcon name="Nginx" source="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nginx/nginx-original.svg" />
                 <TechIcon name="Jira" source="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jira/jira-original.svg" />
                 <TechIcon name="Ollama" source="https://github.com/RobH0/project-gifs/blob/main/ollama.png?raw=true" />
+                <TechIcon className={styles.centered} name="Vite" source="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vitejs/vitejs-original.svg" />
             </div>
 
             <h2>Operating Systems</h2>
