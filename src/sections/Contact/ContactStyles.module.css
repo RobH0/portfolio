@@ -5,6 +5,7 @@
     flex-direction: column;
     align-items: center;
     gap: 50px;
+    height: fit-content;
 }
 
 .contactForm{
@@ -84,7 +85,7 @@
     }
 }
 
-@media screen and (width < 400px){
+@media screen and (width < 450px){
     .container{
         .upperText{
             width: 90dvw;
