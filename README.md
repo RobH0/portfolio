@@ -12,4 +12,4 @@ Portfolio website showcasing recent projects.
 
 ## Future Improvements
 
-- [] Put observer code into its own function to remove repeat code.
+- [ ] Put observer code into its own function to remove repeat code.
