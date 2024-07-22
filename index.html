@@ -15,8 +15,8 @@
     <script type="module" src="/src/main.jsx"></script>
 
     <!-- netlify-honey-post="pass" data-netlify-recaptcha="true" -->
-    <form name="portfolio-contact" method='POST' className={styles.contactForm}  data-netlify="true" hidden>
-      <!-- <input type="hidden" name="pass"/> -->
+    <form name="portfolio-contact" method='POST' className={styles.contactForm}  data-netlify="true" netlify-honeypost="bot-field" hidden>
+      <input type="hidden" name="bot-field"/>
       <div>
           <label name="name" hidden>Name</label>
           <input id="form-name" type="text" name="name"/>
