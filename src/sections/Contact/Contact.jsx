@@ -1,5 +1,6 @@
 import styles from './ContactStyles.module.css';
-
+//netlify-honey-post="pass" data-netlify-recaptcha="true"
+//<div data-netlify-recaptcha="true"></div>
 function Contact() {
   return (
     <section id="Contact" className={styles.container}>
@@ -10,7 +11,7 @@ function Contact() {
         </div>
         
         
-        <form name="portfolio-contact" method='POST' className={styles.contactForm}  data-netlify="true" netlify-honey-post="pass" data-netlify-recaptcha="true">
+        <form name="portfolio-contact" method='POST' className={styles.contactForm}  data-netlify="true">
             <input type="hidden" name="form-name" value="portfolio-contact" />
             <input type="hidden" name="pass"/>
             <div className={styles.formDiv}>
@@ -25,7 +26,7 @@ function Contact() {
                 <label name="message" hidden>Message</label>
                 <textarea id="form-message" type="text" name="message" placeholder='Enter your message here...' required></textarea>
             </div>
-            <div data-netlify-recaptcha="true"></div>
+            
             <button type="submit">Submit</button>
         </form>
     </section>
