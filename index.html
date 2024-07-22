@@ -13,5 +13,25 @@
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
+
+
+    <form name="portfolio-contact" method='POST' className={styles.contactForm}  data-netlify="true" netlify-honey-post="pass" data-netlify-recaptcha="true" hidden>
+      <input type="hidden" name="pass"/>
+      <div>
+          <label name="name" hidden>Name</label>
+          <input id="form-name" type="text" name="name"/>
+      </div>
+      <div>
+          <label name="email" hidden>Email</label>
+          <input id="form-email" type="text" name="email"/>
+      </div>
+      <div>
+          <label name="message" hidden>Message</label>
+          <textarea id="form-message" type="text" name="message"></textarea>
+      </div>
+      <div data-netlify-recaptcha="true"></div>
+  </form>
+
+  <noscript>Please enable JavaScript to view this webpage.</noscript>
   </body>
 </html>
