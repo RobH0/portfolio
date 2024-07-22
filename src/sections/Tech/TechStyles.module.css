@@ -17,10 +17,17 @@
     gap: 10px;
 }
 
-@media screen and (width < 400px){
+@media screen and (width < 450px){
     .evenIcons{
         display: grid;
         grid-template-columns: 1fr 1fr;
+    }
+
+    .oddIcons{
+        display: flex;
+        width: 60%;
+        flex-wrap: wrap;
+        justify-content: center;
     }
 
     h2{
