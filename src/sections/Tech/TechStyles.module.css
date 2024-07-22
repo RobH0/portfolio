@@ -14,7 +14,7 @@
 
 .typeDiv{
     display: flex;
-    gap: 10px;
+    gap: 20px;
 }
 
 @media screen and (width < 450px){
