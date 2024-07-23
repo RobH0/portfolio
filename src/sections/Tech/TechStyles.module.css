@@ -25,7 +25,7 @@
 
     .oddIcons{
         display: flex;
-        width: 70%;
+        width: 80%;
         flex-wrap: wrap;
         justify-content: center;
     }
