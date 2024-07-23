@@ -15,7 +15,7 @@
     <script type="module" src="/src/main.jsx"></script>
 
     <!-- netlify-honey-post="pass" data-netlify-recaptcha="true" -->
-    <form name="portfolio-contact" method='POST' className={styles.contactForm}  data-netlify="true" netlify-honeypost="bot-field" hidden>
+    <form name="portfolio-contact" method='POST' className={styles.contactForm}  data-netlify="true" netlify-honeypost="bot-field" data-netlify-recaptcha="true" hidden>
       <input type="hidden" name="bot-field"/>
       <div>
           <label name="name" hidden>Name</label>
@@ -29,7 +29,7 @@
           <label name="message" hidden>Message</label>
           <textarea id="form-message" type="text" name="message"></textarea>
       </div>
-      <!-- <div data-netlify-recaptcha="true"></div> -->
+      <div data-netlify-recaptcha="true"></div>
   </form>
 
   <noscript>Please enable JavaScript to view this webpage.</noscript>

@@ -13,7 +13,6 @@ function Contact() {
         
         <form name="portfolio-contact" method='POST' className={styles.contactForm}  data-netlify="true">
             <input type="hidden" name="form-name" value="portfolio-contact" />
-            <input type="hidden" name="pass"/>
             <div className={styles.formDiv}>
                 <label name="name" hidden>Name</label>
                 <input id="form-name" type="text" name="name" placeholder='Name' required />
