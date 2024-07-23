@@ -11,8 +11,9 @@ function Contact() {
         </div>
         
         
-        <form name="portfolio-contact" method='POST' className={styles.contactForm}  data-netlify="true">
+        <form name="portfolio-contact" method='POST' className={styles.contactForm}  data-netlify="true" netlify-honeypost="bot-field">
             <input type="hidden" name="form-name" value="portfolio-contact" />
+            <input type="hidden" name="bot-field"/>
             <div className={styles.formDiv}>
                 <label name="name" hidden>Name</label>
                 <input id="form-name" type="text" name="name" placeholder='Name' required />
